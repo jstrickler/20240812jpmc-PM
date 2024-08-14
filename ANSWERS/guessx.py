@@ -3,8 +3,12 @@ import sys
 max_value = 26
 if len(sys.argv) > 1:
     max_value = int(sys.argv[1]) + 1
+# else:
+#     raw_value = input("Enter max_value: ")
+#     max_value = int(raw_value) + 1
 
 min_value = 0
+
 tries = 1
 
 while True:
