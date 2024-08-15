@@ -1,4 +1,5 @@
-from geometry import *
+from EXAMPLES.alpha.mathlib.geometry import *  # import all names unless they start with "_"
+import EXAMPLES.alpha.mathlib.geometry as geometry
 
 a1 = circle_area(8)
 a2 = rectangle_area(10, 12)
