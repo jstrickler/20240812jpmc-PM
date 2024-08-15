@@ -1,7 +1,7 @@
 import logging
 
 logging.basicConfig(
-    filename='../LOGS/simple.log',
+#    filename='../LOGS/simple.log',
     level=logging.WARNING,
 )
 
